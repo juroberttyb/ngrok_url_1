@@ -1,2 +1,2 @@
-curl http://localhost:4040/api/tunnels > ngrok_url.txt;
+curl http://localhost:4041/api/tunnels > ngrok_url.txt;
 git add .; git commit -m "update: ngrok_url"; git push;
